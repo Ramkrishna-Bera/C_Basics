@@ -1,17 +1,17 @@
-// This is the program for printing the ASCII value of the charecter
+// This is the program for printing the ASCII value of any character
 /* Sample Input :
-    Enter the charecter : s
+    Enter the character : s
    Sample Output :
-    The ASCII value of the charecter s is 115
+    The ASCII value of the character s is 115
 */
 #include <stdio.h>
 
 void main()
 {
-    char charecter ;                            // declaration of variable
+    char character ;                            // declaration of variable
 
-    printf("Enter the charecter :");
-    scanf("%c",&charecter);                     // input charecter
+    printf("Enter the character :");
+    scanf("%c",&character);                     // input charecter
 
-    printf("The ASCII value of the charecter %c is %d",charecter,charecter); // printing ASCII value
+    printf("The ASCII value of the character %c is %d",character,character); // printing ASCII value
 }
