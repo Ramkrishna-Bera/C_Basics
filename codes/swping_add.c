@@ -16,5 +16,5 @@ void main()
     var2 = var1 - var2;                        // swaping of variable using sum.
     var1 = var1 - var2;
 
-    printf("The values after swaping are : %d %d ",var1,var2); // after swaping
+    printf("The values of variable 1 and variable 2 are (after swaping): %d %d ",var1,var2); // after swaping
 }
